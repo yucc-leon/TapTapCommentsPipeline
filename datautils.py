@@ -18,10 +18,7 @@ word_seq_length = 20
 
 batch_vol = 25600
 
-seq_cache = './cache/precompute_seq/'
-han_cache = './cache/precompute_han/'
 
-cachePrefix = './cache/precompute_'
 jieba.setLogLevel(logging.INFO)
 jieba.enable_parallel(4)
 
